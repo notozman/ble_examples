@@ -12,7 +12,7 @@ Prerequisites
 
 Before running the demo, the user will need the following components:
 
-- 2x [CC2650R2 LaunchPad](http://www.ti.com/tool/launchxl-cc2640r2)
+- 2x [CC2640R2 LaunchPad](http://www.ti.com/tool/launchxl-cc2640r2)
 - 2x Micro USB cable
 
 #### Firmware Requirements
@@ -53,7 +53,7 @@ Running the demo is as simple and compiling and loading the code, then hooking u
  - Follow the steps from our [FAQ](faq.md) to connect to the LaunchPad boards
  - **Please note that the SPP project uses the default baud rate of 115200**
 
-2. Power the boards inividually and verify they are initialized
+2. Power the boards individually and verify they are initialized
  - The client will blink the green LED twice at initialzation. It will also display `Auto connecting...` on the terminal
  - The server will blink the red LED once at initialization
  - The client will auto connect to the server using a hardcoded BD\_ADDR
